@@ -1,0 +1,130 @@
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+  font-family: ff-tisa-web-pro, serif;
+  font-weight: 300;
+  font-style: regular; }
+
+/*
+* Remove text-shadow in selection highlight:
+* https://twitter.com/miketaylr/status/12228805301
+*
+* These selection rule sets have to be separate.
+* Customize the background color to match your design.
+*/
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none; }
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none; }
+
+/*
+* A better looking default horizontal rule
+*/
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0; }
+
+/*
+* Remove the gap between audio, canvas, iframes,
+* images, videos and the bottom of their containers:
+* https://github.com/h5bp/html5-boilerplate/issues/440
+*/
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle; }
+
+/*
+* Remove default fieldset styles.
+*/
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0; }
+
+/*
+* Allow only vertical resizing of textareas.
+*/
+textarea {
+  resize: vertical; }
+
+/* ==========================================================================
+ Browser Upgrade Prompt
+ ========================================================================== */
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0; }
+
+.top {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  /* ----------- Galaxy S6, S7 ----------- */
+  /* Portrait and Landscape */
+  /* Portrait */
+  /* Landscape */
+  /* ----------- Galaxy S9 ----------- */
+  /* Portrait and Landscape */
+  /* Portrait */
+  /* Landscape */ }
+  @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) {
+    .top {
+      grid-template-columns: 1; } }
+  @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: portrait) {
+    .top {
+      grid-template-columns: 1; } }
+  @media screen and (device-width: 360px) and (device-height: 740px) {
+    .top {
+      grid-template-columns: 1; } }
+
+.top.articles {
+  display: flex;
+  flex-flow: vertical; }
+
+.big {
+  background-color: cornsilk; }
+
+.how {
+  background-color: lightcyan; }
+
+.ask {
+  background-color: lavender; }
+
+/* ----------- Galaxy S6, S7 ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+/* Landscape */
+/* ----------- Galaxy S9 ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+/* Landscape */
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+/* Landscape */
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+/* Landscape */
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+/* Landscape */
+/* ----------- iPhone X ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+/* Landscape */
