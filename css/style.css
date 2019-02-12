@@ -87,6 +87,9 @@ textarea {
   @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: portrait) {
     .top {
       grid-template-columns: 1; } }
+  @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: landscape) {
+    .top {
+      grid-template-columns: 3; } }
   @media screen and (device-width: 360px) and (device-height: 740px) {
     .top {
       grid-template-columns: 1; } }
